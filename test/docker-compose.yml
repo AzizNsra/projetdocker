@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  monapp:
+    image: projetdocker
+    ports:
+      - "80:80"
+  python:
+    image: "redis:alpine"
