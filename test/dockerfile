@@ -1,6 +1,6 @@
 FROM python:2.7-slim
 WORKDIR /test
-COPY ./test
+COPY . /test
 RUN pip install -r requirement.txt
 EXPOSE 80
 
