@@ -5,4 +5,4 @@ services:
     ports:
       - "80:80"
   python:
-    image: "python"
+    image: "python:3.8-slim-buster"
